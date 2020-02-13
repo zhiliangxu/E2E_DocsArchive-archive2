@@ -1,12 +1,53 @@
 {
   "build": {
     "content": [
+      {
+        "files": [
+          "**/*.md",
+          "**/*.yml"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**",
+          "README.md",
+          "LICENSE",
+          "LICENSE-CODE",
+          "ThirdPartyNotices.md"
+        ],
+        "src": ".",
+        "dest": "."
+      }
     ],
     "resource": [
+      {
+        "files": [
+          "**/*.png",
+          "**/*.jpg"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "**/includes/**",
+          "_themes/**",
+          "_themes.pdf/**",
+          "**/docfx.json",
+          "_repo.en-us/**"
+        ]
+      }
     ],
     "overwrite": [],
     "externalReference": [],
     "globalMetadata": {
+      "breadcrumb_path": "/archive-target-2/breadcrumb/archive-target-zhiliaxu/toc.json",
+      "extendBreadcrumb": true,
+      "feedback_system": "None",
+      "is_archived": true,
+      "is_retired": true,
+      "ROBOTS": "NOINDEX,NOFOLLOW",
+      "docs_archive": "tool"
     },
     "fileMetadata": {},
     "template": [],
